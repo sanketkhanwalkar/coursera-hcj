@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 
     <link rel="stylesheet" href="https://wwwimages2.stage.adobe.com/assets/globalnav/v1.1.4-stage/css/globalnav.css">
-<script type="text/javascript">
-document.write('value of ogTags', ogTags);
-    if({{ogTags}} != undefined)
-    {
+    {{#if ogTags}}
     <meta property="og:title" content="Shared 'My Library' Library" />
       <meta property="og:type" content="summary_large_image" />
       <meta property="og:url" content="http://adobe.ly/2cAINsC" />
       <meta property="og:image" content="https://d287uvbfadspw2.cloudfront.net/b4c92708-4666-42c9-768f-af4c3769e6ff/mosaic.png" />
-    }    
+    {{/if}}    
 </script>
   </head>
   <body>
